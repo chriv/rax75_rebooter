@@ -1,0 +1,12 @@
+[Unit]
+Description=Reboot RAX75 WAP
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/rebootrax75
+# Hardening
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=read-only

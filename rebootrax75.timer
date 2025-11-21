@@ -1,0 +1,11 @@
+[Unit]
+Description=Reboot RAX75 Weekly
+
+[Timer]
+OnCalendar=Sun,Wed *-*-* 03:00:00
+RandomizedDelaySec=3600
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
