@@ -32,7 +32,7 @@ sudo update-ca-certificates
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/rax75-rebooter.git](https://github.com/YOUR_USERNAME/rax75-rebooter.git)
+    git clone https://github.com/chriv/rax75_rebooter.git
     cd rax75-rebooter
     ```
 
